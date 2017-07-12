@@ -7,9 +7,6 @@
           <img src="{{ Voyager::image( $image ) }}" data-image="{{ $image }}" data-id="{{ $dataTypeContent->id }}">
           <a href="#" class="voyager-x remove-multi-image"></a>
         </div>
-        <div class="image-tools">
-          <i class="glyphicon glyphicon-remove remove-multi-image" title="Remove image"></i>
-        </div>
       @endforeach
     @endif
 @endif
